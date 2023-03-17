@@ -1,68 +1,145 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/Logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d03c8a4b10.js" crossorigin="anonymous"></script>
 	<title>KalimBatony</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	<link rel="icon" href="logoTransparent.ico" type="image/x-icon">
-	<style>
-		
-	</style>
 </head>
 
 <body>
-			<nav class="navbar navbar-expand-lg bg-light">
-		  <div class="container-fluid">
-		    <a class="navbar-brand">KalimBatony</a>
-		    
-		  </div>
-		</nav>
-	<h4 style="text-align: center;">We makes games!</h4>
-	<div class = "container my-5">
-		<div class = "row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-			<div class = "col-lg-6 col-md-8 mx-auto">
-				<div class="card">
-					<h5 class="card-title">Box dog jump</h5>
-					<a href="https://play.google.com/store/apps/details?id=com.TOXA_entertainment.Boxdogjump" class="btn btn-primary">On Google Play</a>
-				  	<img src="appIcon.png" class="card-img-top" alt="...">
+	<header class = "header">
+		<div class = "container">
+			<div class="header__inner"> 
 
-			  		<div class="card-body">
-				    	<p class="card-text">
-				    		Help Doggie the dog to get his hat back in this great platformer. Jump over platforms, dodge obstacles. Get an unforgettable experience and enjoy the game.
-				    	</p>
-		  			</div>
-				</div>	
+				<div class = "header__logo">
+				<img src="img/Logo2.png" class = "header__logo__img"> 
+				<!-- KalimBatony -->
+				</div>
+
+				<nav class = "nav">
+					<a class = "nav__link active" href="#">About</a>
+					<a class = "nav__link" href="#our games">Our games</a>
+					<a class = "nav__link" href="#google play">We are on Google Play</a>
+					<a class = "nav__link" href="#contact us">Contact us</a>
+	
+				</nav>
+
 			</div>
+		</div>
+	</header>
 
-			<div class = "col-lg-6 col-md-8 mx-auto">
-				<div class="card">
-					<h5 class="card-title">Blue knight night</h5>
-					<a href="https://play.google.com/store/apps/details?id=com.TOXA_entertainment.BlueKnightNight" class="btn btn-primary">
-					On Google Play
-					</a>
-				  	<img src="iconBNN2.png" class="card-img-top" alt="...">
-
-			  		<div class="card-body">
-				    	<p class="card-text">
-				    		The night begins. Embark on an adventure with the blue knight, choose a sword, 			overcome obstacles, fight bosses. Complete 20 unique levels, try a lot of swords, use a double jump, 		feel the exciting gameplay and a combination of different visual styles.
-				    	</p>
-		  			</div>
-				</div>	
-			</div>
-
+	<div class = "intro">
+		<div class = "container">
+			<div class = intro_inner> 
+				<h1 class = "intro__title"><a name = "We make games">We make games!</a></h1>
 			</div>
 		</div>
 	</div>
 
-	<div class="border border-info">
-		  <div class="border border-info" style="text-align: center;">
-		    <h5 class="card-title">Contact us:</h5>
-		    <p class="card-text">
-		    	<a class = "btn btn-primary" href="mailto:toxa-entertainment@mail.ru">toxa-entertainment@mail.ru</a>
-		    </p>
-		  </div>
-	</div>
+	<section class = "section">
+		<div class = "container">
 
+			<div class = "section__header">
+				<h1 class = "section__title"><a name = "our games">Our games</a></h1>
+			</div>
+
+			<div class = "about">
+
+				<div class="about__item">
+					<div class = "about__title">Box dog jump</div>
+
+					<div class = "about__img">
+						<img src="img/iconBDG.png">
+					</div>
+					
+					<a href="https://play.google.com/store/apps/details?id=com.TOXA_entertainment.Boxdogjump" class = "about__link" target="_blank">
+						<div class = "about__button">Download on Google Play</div>
+					</a>
+					
+					<div class = "about__text">Help Doggie the dog to get his hat back in this great platformer. Jump over platforms, dodge obstacles. Get an unforgettable experience and enjoy the game.
+					</div>
+				</div>
+
+				<div class="about__item">
+					<div class = "about__title">Blue knight night</div>
+
+					<div class = "about__img">
+						<img src="img/iconBNN.png">
+					</div>
+
+					<a href="https://play.google.com/store/apps/details?id=com.TOXA_entertainment.BlueKnightNight" class = "about__link" target="_blank">
+						<div class = "about__button">Download on Google Play</div>
+					</a>
+
+					<div class = "about__text">The night begins. Embark on an adventure with the blue knight, choose a sword, 			overcome obstacles, fight bosses. Complete 20 unique levels, try a lot of swords, use a double jump, 		feel the exciting gameplay and a combination of different visual styles.
+					</div>
+				</div>
+
+				<div class="about__item">
+					<div class = "about__title">Break the brick</div>
+
+					<div class = "about__img">
+						<img src="img/iconBTB.png">
+					</div>
+
+					<a href="#" class = "about__link" target="_blank">
+						<div class = "about__button">Coming soon</div>
+					</a>
+
+					<div class = "about__text">Break as many bricks as possible in this addictive endless game, aim and launch balls at the bricks. Choose a variety of different design options for the playing field that you will like and just enjoy the gameplay!
+					</div>
+				</div>
+
+			</div>  <!-- div about -->
+
+		</div>	<!-- div container -->
+	</section> <!-- section section -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<div class = "fotter__inner">
+				<div class="footer__col">
+					<div class="footer__text">Contact us:<a href="mailto:toxa-entertainment@mail.ru" class="footer__link" name ="contact us"> toxa-entertainment@mail.ru</a></div>
+
+					<div class="footer__social">
+						<div class="footer__social-header"></div>
+
+						<div class="footer__social-content">
+							Follow Us:
+							<a href="#" target="_blank">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+
+							<a href="#" target="_blank">
+								<i class="fa-brands fa-youtube"></i>
+							</a>
+							<a href="" target="_blank" name = "google play">
+								<i class="fa-brands fa-google-play"></i>
+							</a>	
+								
+						</div>
+
+					</div>
+
+					<div class="footer__source__link"><a href="https://www.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_16358987.htm#query=website%20background&position=19&from_view=keyword&track=ais"  target="_blank">Image by rawpixel.com on Freepik</a>
+					</div>
+
+				</div> <!-- footer__col   -->
+			</div>
+
+		</div>
+	</footer><!-- </footer>  -->
+
+	<div class="copyright">
+		By Kalim Batony
+	</div>
 
 </body>
